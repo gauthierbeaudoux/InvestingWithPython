@@ -1,0 +1,7 @@
+py -3 -m venv .venv
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+.venv\scripts\activate
+
+deactivate pour partir de venv
